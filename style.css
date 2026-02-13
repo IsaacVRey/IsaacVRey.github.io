@@ -12,3 +12,8 @@ a:visited{
     text-decoration: none;
     columns: aquamarine;
 }
+
+img{
+    width: 200px;
+    height: auto;
+}
