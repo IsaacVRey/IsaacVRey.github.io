@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+    color: #222829;
+    font-family: "Ek Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+h1{
+    font-weight: 100;
+}
+
+header{
+    background-color: black;
+    text-transform: uppercase;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main > img{
+    width: 400px;
+    height: auto;
+}
+
+#social > img{
+    width: 50px;
+    height: auto;
+}
+
+section{
+    background-color: #E6E6E6;
+}
+
+#findus > img{
+    width: 50px;
+    height: auto;
+}
+
+section > button{
+    background-color: #33509F;
+    border: 2px solid #33509F;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: white;
+    width: auto;
+    height: 50px;
+}
+
+input{
+    width: auto;
+    height: 50px;
+}
+
+footer{
+    background-color: black;
+}
