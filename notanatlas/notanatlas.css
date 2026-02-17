@@ -1,8 +1,9 @@
 body{
     background-color: white;
+    margin: 0;
     color: #222829;
     font-family: "Ek Mukta", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 200;
     line-height: 1.5;
 }
@@ -14,16 +15,51 @@ h1{
 header{
     background-color: black;
     text-transform: uppercase;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
 }
 
-a{
+header > nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header > #logo{
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.header > a{
     color: white;
     text-decoration: none;
+}
+
+main{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 main > img{
     width: 400px;
     height: auto;
+    padding-top: 50px;
+}
+
+main > h1{
+    text-align: center;
+}
+
+#social{
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 #social > img{
@@ -31,12 +67,42 @@ main > img{
     height: auto;
 }
 
+p > a{
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: #33509F;
+}
+
 section{
     background-color: #E6E6E6;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    font-size: 15px;
+}
+
+section > div{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 #findus > img{
     width: 50px;
+    height: 50px;
+}
+
+#support{
+    gap: 100px;
+}
+
+#support > img{
+    width: 200px;
     height: auto;
 }
 
@@ -60,4 +126,17 @@ input{
 
 footer{
     background-color: black;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    justify-items: center;
+    font-size: 15px;
+}
+
+#footer > a{
+    color: white;
+    text-decoration: none;
 }
