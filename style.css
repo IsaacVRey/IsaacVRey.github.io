@@ -3,6 +3,10 @@ body{
     color:aliceblue;
 }
 
+section{
+    padding-bottom: 200px;
+}
+
 a{
     text-decoration: none;
     color: aquamarine;
@@ -13,8 +17,13 @@ a:visited{
     columns: aquamarine;
 }
 
-img{
+#logo{
     width: 200px;
+    height: auto;
+}
+
+image{
+    width: 100%;
     height: auto;
 }
 
