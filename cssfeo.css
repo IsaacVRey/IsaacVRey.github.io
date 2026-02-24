@@ -1,0 +1,10 @@
+body{
+    background-color: chartreuse;
+    color: tomato;
+    display: flex;
+}
+
+a{
+    text-decoration: line-through;
+    color: wheat;
+}
